@@ -1,44 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://dutchgp.com/c/ui/dgp/favicons/favicon-32x32.png"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/logos.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tickets 2022 | DutchGP</title>
   </head>
 
   <body>
     <header>
-      <!-- zet nav hier -->
+      <menu>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+
+            <li>
+              <a href="#">Over F1</a>
+              <ul>
+                <li><a href="#" class="ri">DGP</a></li>
+                <li>
+                  <a href="#">Tickets</a>
+                  <ul>
+                    <li><a href="./my-dgp.html">My DGP-account</a></li>
+                    <li><a href="./tickets-dgp.html">Tickets 2022</a></li>
+                    <li>
+                      <a href="./resell-platform.html">Resell Platform</a>
+                    </li>
+                    <li><a href="./hospitality.html">Hospitality</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Teams</a></li>
+          </ul>
+        </nav>
+      </menu>
     </header>
-
-    <div>
-      <img src="./media/img/f1-banner.jpg" alt="banner" class="banner" />
-      <h1>Tickets 2022</h1>
+    <main>
+      <div>
+        <img src="./media/img/f1-banner.jpg" alt="banner" class="banner" />
+        <h1>Tickets 2022</h1>
+        <br />
+        <h2>Formula 1 Heineken Dutch Grand Prix</h2>
+      </div>
       <br />
-      <h2>Formula 1 Heineken Dutch Grand Prix</h2>
-    </div>
-    <br />
-    <div class="text">
-      <h3>Ticketverkoop 2022</h3>
+      <div class="text">
+        <h3>Ticketverkoop 2022</h3>
 
-      <p class="ticket_info">
-        Op 2, 3 en 4 september 2022 reist de Formule 1 opnieuw af naar CM.com
-        Circuit Zandvoort. Vanaf 1 november tot 22 november kon je, mits
-        geregistreerd, tickets aanvragen voor de Formula 1 Heineken Dutch Grand
-        Prix 2022. Helaas zijn er geen tickets meer beschikbaar voor Qualifying
-        Saturday en Sunday Raceday op 3 & 4 september. Wil je toch nog kans
-        maken op tickets? Race dan snel naar ons officiële Resell Platform! Op
-        dit platform kunnen tickethouders hun gekochte tickets direct aanbieden
-        aan andere racefans in binnen- en buitenland.
+        <p class="info">
+          Op 2, 3 en 4 september 2022 reist de Formule 1 opnieuw af naar CM.com
+          Circuit Zandvoort. Vanaf 1 november tot 22 november kon je, mits
+          geregistreerd, tickets aanvragen voor de Formula 1 Heineken Dutch
+          Grand Prix 2022. Helaas zijn er geen tickets meer beschikbaar voor
+          Qualifying Saturday en Sunday Raceday op 3 & 4 september. Wil je toch
+          nog kans maken op tickets? Race dan snel naar ons officiële Resell
+          Platform! Op dit platform kunnen tickethouders hun gekochte tickets
+          direct aanbieden aan andere racefans in binnen- en buitenland.
+        </p>
+        <br />
+        <button class="resell_button">
+          <a href="./resell-platform.html">Bekijk het resell platform</a>
+        </button>
+      </div>
+      <br />
+
+      <p class="info text">
+        SUPER FRIDAY TICKETS Super Friday was afgelopen jaar een van de best
+        bezochte vrijdagen van alle Grand Prix’s op de kalender en jij kan er
+        dit jaar nog steeds bij zijn! Samen met partner Jumbo Supermarkten zijn
+        we bezig om van deze dag in 2022 weer een ongekend succes te maken. Meer
+        informatie over de kaartverkoop voor Super Friday volgt later.
       </p>
-      <br />
-      <button class="resell_button">
-        <a href="https://dutchgp.com/resell-platform/"
-          >Bekijk het resell platform</a
-        >
-      </button>
-    </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="logos">
+        <img
+          src="./images/Jumbo_Logo.svg.png"
+          alt=""
+          id="jumbologo"
+          class="footer_img"
+        />
+        <img
+          src="./images/Heineken-Logo.png"
+          alt=""
+          id="heinekenlogo"
+          class="footer_img"
+        />
+        <img
+          src="./images/538_logo.png"
+          alt=""
+          id="logo538"
+          class="footer_img"
+        />
+        <img src="./images/VWBM.png" alt="" id="vwbmlogo" class="footer_img" />
+
+        <div id="tekst">
+          <p>
+            2022 © Dutch GP B.V. An initiative by SportVibes, TIG Sports &
+            Circuit Zandvoort
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

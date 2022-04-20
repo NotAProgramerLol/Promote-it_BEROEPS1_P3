@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200;400&display=swap");
 footer {
-  background-color: #1e1f26;
+  background-color: #23232c;
   list-style-type: none;
   text-align: center;
   display: inline-block;
@@ -19,7 +19,7 @@ footer {
 #logo538 {
   width: 10%;
 }
-img {
+.footer_img {
   margin: 0 6%;
 }
 #tekst {

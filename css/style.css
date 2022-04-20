@@ -8,8 +8,24 @@
 html {
   background-color: #14141e;
 }
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://dutchgp.com/c/ui/dgp/dist/img/sponsors-background.svg");
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+}
+main{
+  height: 100vh;
+}
 .text {
   margin: 0 10px;
+}
+.mid_txt {
+  border: #bb2b2b solid 2px;
+}
+.mid_div {
+  text-align: center;
 }
 button,
 button * {
@@ -27,6 +43,6 @@ button * {
   width: 100vw;
   z-index: -2;
 }
-.ticket_info {
+.info {
   width: 60%;
 }
