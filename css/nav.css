@@ -42,8 +42,8 @@ nav ul ul li {
 }
 nav ul ul ul li {
   position: relative;
-  top: -29px;
-  left: 40px;
+  top: -35px;
+  left: 20px;
   width: auto;
   z-index: 2;
 }
@@ -52,14 +52,14 @@ a {
   color: rgb(0, 0, 0);
   text-decoration: none;
   transition: 200ms;
-  margin-right: 25px;
+  margin-right:20px;
 }
 a:hover {
   border-left: solid 2px rgb(0, 0, 0);
   color: white;
   padding: 2px;
   background-color: rgba(94, 94, 94, 0.548);
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .ri {
   width: 20px;
