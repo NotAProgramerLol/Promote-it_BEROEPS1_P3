@@ -46,3 +46,8 @@ button * {
 .info {
   width: 60%;
 }
+.background {
+  background-image: url("../media/img/content.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+}
