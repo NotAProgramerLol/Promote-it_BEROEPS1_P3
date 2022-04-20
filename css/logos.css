@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;400&display=swap');
-footer{
-    background-color: #1e1f26;
-    list-style-type: none;
-    text-align: center;
-    display: inline-block;
-    font-family: 'Prompt', sans-serif;
-    color: white;
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200;400&display=swap");
+footer {
+  background-color: #1e1f26;
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  font-family: "Prompt", sans-serif;
+  color: white;
 }
-#jumbologo{
-    width: 10%;
+#jumbologo {
+  width: 10%;
 }
-#heinekenlogo{
-    width: 10%;
+#heinekenlogo {
+  width: 10%;
 }
-#vwbmlogo{
-    width: 10%;
+#vwbmlogo {
+  width: 10%;
 }
-#logo538{
-    width: 10%;
+#logo538 {
+  width: 10%;
 }
-img{
-    margin: 0 6%;
+img {
+  margin: 0 6%;
 }
-#tekst{
-    margin-top: 3%;
+#tekst {
+  margin-top: 3%;
 }

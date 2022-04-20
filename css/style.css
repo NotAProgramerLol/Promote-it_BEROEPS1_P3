@@ -8,11 +8,11 @@
 html {
   background-color: #14141e;
 }
-.text{
+.text {
   margin: 0 10px;
-
 }
-button, button *{
+button,
+button * {
   background-color: #bb2b2b;
   text-decoration: none;
   font-weight: bold;
