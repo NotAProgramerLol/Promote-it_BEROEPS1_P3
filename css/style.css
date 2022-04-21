@@ -17,7 +17,7 @@ body {
   background-position: 0 100%;
 }
 main {
-  height: 75vh;
+  height: 100vh;
 }
 .ttl{
   margin-left: 5%;
@@ -26,7 +26,7 @@ main {
   font-family: 'Ubuntu', sans-serif;
 }
 .text {
-  margin-top: 50px;
+  
   font-family: 'Ubuntu', sans-serif;
   margin-left: 5%;
 }
@@ -46,6 +46,7 @@ button * {
 }
 .resell_button {
   margin-left: 5%;
+  margin-bottom: 10%;
 }
 .banner {
   height: auto;
